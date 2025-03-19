@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parveda Varsha's Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .profile-photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #4CAF50;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background-color: #e8f5e9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Parveda Varsha's Developer Portfolio</header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <div class="profile-photo">
+                <img src="photo(me).jpg" alt="Profile Photo">
+            </div>
+            <h2>About Me</h2>
+            <p>Hi, I'm Parveda Varsha, a Computer Science and Engineering (Data Science) student passionate about Machine Learning and Web Development. I enjoy solving complex problems and creating innovative solutions.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Human Pose Estimation</h3>
+                    <p>Developed a machine learning model using Python and TensorFlow for human pose estimation. Implemented data preprocessing, model training, and hyperparameter optimization.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Exhaustive Analysis of Indian Agriculture</h3>
+                    <p>Created a Power BI dashboard to analyze agricultural data, identify trends, and provide insights for better decision-making.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Solar Power Output Prediction</h3>
+                    <p>Developed a linear regression model to predict solar power output, optimizing model accuracy using Python.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:varshaa1703@gmail.com">varshaa1703@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/varsha0917" target="_blank">varsha0917</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/varshaparveda" target="_blank">Parveda Varsha</a></p>
+        </section>
+    </div>
+    <footer>&copy; 2025 Parveda Varsha | All Rights Reserved</footer>
+</body>
+</html>

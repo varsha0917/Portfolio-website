@@ -1,3 +1,6 @@
+# Portfolio-website
+
+
 COMPANY: CODTECH IT SOLUTIONS
 
 NAME: Parveda Varsha
@@ -10,8 +13,6 @@ DURATION: 4 WEEKS
 
 MENTOR: NEELA SANTOSH
 
-
-# Portfolio-website
 
 # Developer Portfolio - Parveda Varsha
 

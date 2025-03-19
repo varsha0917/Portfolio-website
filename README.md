@@ -39,5 +39,7 @@ This is a responsive, single-page portfolio website designed to showcase the pro
 - Add or update projects by editing the respective project cards.
 - Style modifications can be made directly within the `<style>` tag.
 
+##Output
+![Image](https://github.com/user-attachments/assets/b55e5c59-59e1-437e-8649-637ac040f30a)
 
 
